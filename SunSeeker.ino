@@ -1,14 +1,17 @@
-#define BLYNK_TEMPLATE_ID "TMPL31h4fTbZi"
-#define BLYNK_TEMPLATE_NAME "Sun tracking solar panel"
-#define BLYNK_AUTH_TOKEN "1Gp-a6cIO-ytzvOgDbVtohpfrAWe6vwt"
+//the below 3 lines of code are to be copied from the blynk web platform for your device
+#define BLYNK_TEMPLATE_ID "Your Template ID"  
+#define BLYNK_TEMPLATE_NAME "Your template name"
+#define BLYNK_AUTH_TOKEN "Your Auth Token"
+
 #include <BlynkSimpleEsp32.h>
 #include <ESP32Servo.h>
 #include <WiFi.h>
 
 BlynkTimer timer;
 
-char ssid[] = "Anuraag's S23";
-char pass[] = "Anuraag16";
+//type in your wifi name and password
+char ssid[] = "Wi-Fi name";
+char pass[] = "Wi-Fi password";
 
 Servo SolarServo;
 
